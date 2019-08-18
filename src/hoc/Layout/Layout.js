@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Toolbar from "./../../components/Navigation/Toolbar/Toolbar";
 import SideDrawer from "./../../components/Navigation/SideDrawer/SideDrawer";
+import Footer from "../../components/Footer/Footer";
 
 class Layout extends Component {
   state = {
@@ -33,6 +34,7 @@ class Layout extends Component {
           open={this.state.showSideDrawer}
         />
         <main className="Content">{this.props.children}</main>
+        <Footer/>
       </>
     );
   }

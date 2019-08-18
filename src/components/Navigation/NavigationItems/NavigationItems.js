@@ -11,7 +11,6 @@ const navigationItems = props => {
       <NavigationItem link="/about">Sản phẩm</NavigationItem>
       <NavigationItem link="/contact">Nhượng Quyền</NavigationItem>
       <NavigationItem link="/promotion">Liên Hệ</NavigationItem>
-      
     </ul>
   );
 };
