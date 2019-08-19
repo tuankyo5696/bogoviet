@@ -7,10 +7,10 @@ const navigationItems = props => {
       <NavigationItem link="/" exact>
         Home
       </NavigationItem>
-      <NavigationItem link="/category">Menu</NavigationItem>
-      <NavigationItem link="/about">Sản phẩm</NavigationItem>
-      <NavigationItem link="/contact">Nhượng Quyền</NavigationItem>
-      <NavigationItem link="/promotion">Liên Hệ</NavigationItem>
+      <NavigationItem link="/">Menu</NavigationItem>
+      <NavigationItem link="/product">Sản phẩm</NavigationItem>
+      <NavigationItem link="/franchise">Nhượng Quyền</NavigationItem>
+      <NavigationItem link="/contact">Liên Hệ</NavigationItem>
     </ul>
   );
 };

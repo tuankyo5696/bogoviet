@@ -1,6 +1,5 @@
 {
-    "endOfLine": "auto",
-    "bracketSpacing": true,
-    "semi": false
-  }
-  
+  "endOfLine": "auto",
+  "bracketSpacing": true,
+  "semi": false
+}

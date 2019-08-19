@@ -1,0 +1,46 @@
+#breadcrumb {
+  padding: 5px 10px;
+  margin: 10px 0 20px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+
+  .pull-left {
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+
+    li.last {
+      padding-left: 20px;
+    }
+  }
+
+  >li {
+    display: inline-block;
+  }
+
+  span {
+    color: #000;
+  }
+}
+
+#breadcrumb a,
+#breadcrumb span {
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.iconSVGProduct {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.iconSVGProduct2 {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}

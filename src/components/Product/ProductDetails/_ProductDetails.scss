@@ -1,0 +1,108 @@
+h1.title {
+  font-size: 25px;
+  font-weight: 900;
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #921936;
+}
+
+.box-product {
+  position: relative;
+  margin-bottom: 25px;
+  border: solid 1px #f3f3f3;
+  background-color: #fff;
+
+  figure {
+    width: 100%;
+    height: 210px;
+    position: relative;
+    overflow: hidden;
+    line-height: 210px;
+    padding: 3px;
+    margin-bottom: 15px;
+    background: #fff;
+    text-align: center;
+
+    a {
+      display: block;
+    }
+    .banner-cubic-7 {
+      overflow: hidden;
+      position: relative;
+      display: block;
+
+      &:after {
+        border-color: transparent transparent #000;
+        bottom: 0;
+        right: 0;
+      }
+
+      &:hover:after {
+        border-width: 0 0 500px 500px;
+      }
+    }
+
+  }
+
+  .meta {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+
+    h3 {
+      height: 21px;
+      overflow: hidden;
+      line-height: 20px;
+      padding: 1px 0;
+      margin: 0 0 0 10PX !important;
+
+      a {
+        color: #414141;
+        font-size: 15px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .price-all {
+    width: 100%;
+    margin: 10px;
+
+    span {
+      width: 100%;
+
+      .price {
+        font-size: 15px;
+        font-weight: 700;
+        display: inline-block;
+        color: #d80003;
+      }
+    }
+  }
+}
+
+.article .meta h3 {
+  margin: 0 0 10px 0;
+  font-size: 15px;
+}
+
+img {
+  border: 0 none;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  cursor: pointer;
+  color: #333;
+  outline: none !important;
+  text-decoration: none !important;
+  display: block;
+  position: relative;
+  transition: all .3s ease 0s;
+}
+.imgProduct{
+  height: 200px;
+  width:200px;
+}

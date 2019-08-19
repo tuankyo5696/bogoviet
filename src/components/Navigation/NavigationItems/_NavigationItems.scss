@@ -1,3 +1,4 @@
+@import '../../../styles/styles.scss';
 .NavigationItems {
     margin: 0 8px;
     padding: 0px;
@@ -7,8 +8,16 @@
     height: 100%;
 }
 
-@media(min-width: 576px){
+
+
+// @media(min-width: 576px){
+//     .NavigationItems {
+//         flex-flow: row nowrap;
+//     }   
+// }
+
+@media (min-width: $breakpoint-lg){
     .NavigationItems {
         flex-flow: row nowrap;
-    }   
+    }  
 }

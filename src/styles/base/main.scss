@@ -46,7 +46,15 @@ html {
     -webkit-tap-highlight-color: transparent
 }
 
-
+a {
+    cursor: pointer;
+    color: #333;
+    outline: none !important;
+    text-decoration: none !important;
+    display: block;
+    position: relative;
+    transition: all .3s ease 0s;
+}
 .col,
 .col-1,
 .col-10,

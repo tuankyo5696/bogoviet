@@ -1,5 +1,5 @@
 import React from "react";
-import BurgerLogo from "./../../assets/images/bogo.jpg";
+import BurgerLogo from "./../../assets/images/logo.png";
 import "./_Logo.scss";
 
 const Logo = props => (

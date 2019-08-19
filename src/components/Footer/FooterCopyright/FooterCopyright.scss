@@ -1,0 +1,23 @@
+.copy-right {
+  color: #fff;
+  float: left;
+  width: 100%;
+  background-color: #770a26;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+
+  span {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 13px;
+  }
+
+  a {
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #fff;
+  }
+}

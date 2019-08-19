@@ -1,5 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
+import './FooterCategory.scss'
 
 const FooterCat = () => (
   <div className="col-lg-4 col-md-4 col-xs-12 col-sm-12">
@@ -17,7 +18,7 @@ const FooterCat = () => (
             <NavLink to="/">Menu thức uống</NavLink>
           </li>
           <li>
-            <NavLink to="/">Danh mục sản phẩm</NavLink>
+            <NavLink to="/product">Danh mục sản phẩm</NavLink>
           </li>
         </ul>
       </div>

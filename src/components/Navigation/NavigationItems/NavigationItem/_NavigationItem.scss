@@ -4,12 +4,12 @@
   padding: 15px 30px;
   box-sizing: border-box;
   display: block;
+  font-family: 'Open Sans', sans-serif;
   >a {
     color: $white;
-    font-weight: 900;
-    text-transform: capitalize;
-    font-size: 25px;
-    font-style: italic;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
     display: block;
     text-decoration: none;
     width: 100%;
@@ -19,11 +19,13 @@
     &:active,
     &.active {
       color: $red;
+      font-weight: 700;
+      font-family: 'Open Sans', sans-serif;
     }
   }
 }
 
-@media(max-width: $breakpoint-sm) {
+@media(max-width: $breakpoint-lg) {
   .NavigationItem {
     padding: 10px 0;
     text-align: left;
