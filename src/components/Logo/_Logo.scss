@@ -1,27 +1,31 @@
-@import './../../styles/styles.scss';
+@import "./../../styles/styles.scss";
 
-@media(max-width: $breakpoint-md - 0.02px) {
-    .LogoImg {
-        max-width: 50px;
+@media (max-width: $breakpoint-md - 0.02px) {
+  .LogoImg {
+    max-width: 50px;
 
-        img {
-            width: 100%;
-        }
+    img {
+      width: 100%;
     }
+  }
 }
 
 @media (min-width: $breakpoint-md) and (min-width: $breakpoint-lg) {
-    .LogoImg {
-        max-width: 70px
-    }
+  .LogoImg {
+    max-width: 70px;
+  }
 }
 
-@media(min-width: $breakpoint-md) {
-    .LogoImg {
-        max-width: 100px;
+@media (min-width: $breakpoint-md) {
+  .LogoImg {
+    max-width: 100px;
 
-        img {
-            width: 100%;
-        }
+    img {
+      width: 150%;
+      position: relative;
+      top: 31px;
+      left: -31px;
+      max-width: 150%;
     }
+  }
 }

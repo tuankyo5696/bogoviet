@@ -4,7 +4,7 @@ import "./_Logo.scss";
 
 const Logo = props => (
   <div className="LogoImg">
-    <img src={BurgerLogo} alt="MyPizza" />
+    <img src={BurgerLogo} alt="MyBurger" />
   </div>
 );
 

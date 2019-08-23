@@ -1,7 +1,7 @@
 import React from "react"
 import "./InfoContact.scss"
 import { dataFooter } from "../../../data/dataFooter"
-import { Field, Formik, Form } from "formik"
+import { Formik, Form } from "formik"
 import * as Yup from "yup"
 const InfoContact = props => {
   const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
@@ -80,47 +80,49 @@ const InfoContact = props => {
                     <div className="form-contact">
                       <h2 className="heading">Gửi thông tin</h2>
                       <div className="clearfix" />
-                      <Form
-                        action="/contact-us.html"
-                        method="post"
-                        noValidate="novalidate"
-                      >
+                      <Form>
                         {" "}
                         <div className="row">
                           <div className="text1 col-md-12 col-sm-12">
                             <span>*Họ tên:</span>
-                            <Field
+                            <input
                               className="text-box single-line"
-                              id="Name"
-                              name="name"
+                              name="fullname"
                               type="text"
+                              onChange={handleChange}
+                              onBlur={handleBlur}
                             />
                           </div>
                           <div className="text1 col-md-12 col-xs-12">
                             <span>*Điện thoại:</span>
-                            <Field
+                            <input
                               className="text-box single-line"
-                              id="Phone"
                               name="phone"
                               type="text"
+                              onChange={handleChange}
+                              onBlur={handleBlur}
                             />
                           </div>
                           <div className="text1 col-md-12 col-sm-12">
                             <span>*Email:</span>
-                            <Field
+                            <input
                               className="text-box single-line"
                               id="Email"
-                              name="Email"
+                              name="email"
                               type="email"
+                              onChange={handleChange}
+                              onBlur={handleBlur}
                             />
                           </div>
                           <div className="text1 col-md-12 col-xs-12">
                             <span>*Tiêu đề:</span>
-                            <Field
+                            <input
                               className="text-box single-line"
                               id="Subject"
                               name="title"
                               type="text"
+                              onChange={handleChange}
+                              onBlur={handleBlur}
                             />
                           </div>
                           <div className="context-c1 col-md-12 col-xs-12">
