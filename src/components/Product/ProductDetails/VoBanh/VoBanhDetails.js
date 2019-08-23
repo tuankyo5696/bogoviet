@@ -1,35 +1,19 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import "./_ProductDetails.scss"
-import { dataProduct } from "../../../data/dataProduct"
+import "./_VoBanhDetails.scss"
+import { dataVobanh } from "./../../../../data/dataVobanh"
 
-import VoBanh from "../../../assets/images/vobanh.jpg"
-import NhanBo from "../../../assets/images/nhanbo.png"
-import NhanGa from "../../../assets/images/nhanga.jpg"
-import NhanTom from "../../../assets/images/nhantom.jpg"
-import TuongCa from "./../../../assets/images/tuongca.jpg"
-import TuongOt from "./../../../assets/images/tuongot.png"
-import PhoMai from "./../../../assets/images/phomai.jpg"
-import Mayonnaise from "./../../../assets/images/mayonnaise.jpg"
+import VoBanh from "./../../../../assets/images/vobanh.jpg"
 
-const A = [
-  VoBanh,
-  NhanBo,
-  NhanGa,
-  NhanTom,
-  Mayonnaise,
-  PhoMai,
-  TuongOt,
-  TuongCa
-]
+const A = [VoBanh]
 
-const ProductDetails = () => {
+const VoBanhDetails = () => {
   return (
     <div className="box-products article">
       <div className="content-background">
         <h1 className="title">Sản phẩm</h1>
         <div className="row">
-          {dataProduct.map((block, index) => (
+          {dataVobanh.map((block, index) => (
             <div
               key={index}
               className="col-lg-3 col-md-3 col-xs-6 borderProduct"
@@ -58,4 +42,4 @@ const ProductDetails = () => {
   )
 }
 
-export default ProductDetails
+export default VoBanhDetails

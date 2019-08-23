@@ -5,6 +5,8 @@ class ProductPage extends Component {
   render() {
     return (
       <div>
+         <div className="application">
+        </div>
         <Product/>
       </div>
     )

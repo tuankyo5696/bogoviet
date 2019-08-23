@@ -1,8 +1,10 @@
+@import "./../../../styles/styles.scss";
+
 .copy-right {
   color: #fff;
   float: left;
   width: 100%;
-  background-color: #770a26;
+  background-color: $toolbar;
   padding: 15px 0;
   text-align: center;
   text-transform: uppercase;

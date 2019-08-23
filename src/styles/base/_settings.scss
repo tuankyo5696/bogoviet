@@ -1,11 +1,10 @@
-
 //Colors
 $dark-grey: #333;
 $grey: #666;
 $blue: #1c88bf;
 $dark-blue: #364051;
 $off-white: #f7f7f7;
-$black : #000;
+$black: #000;
 //Font Size
 $font-size-large: 1.8rem;
 $font-size-small: 1.4rem;
@@ -18,7 +17,7 @@ $desktop-breakpoint: 45rem;
 $indigo: #6610f2;
 $purple: #6f42c1;
 $pink: #e83e8c;
-$red: #dc3545;
+//$red: #dc3545;
 $orange: #fd7e14;
 $yellow: #ffc107;
 $green: #28a745;
@@ -30,7 +29,7 @@ $gray-dark: #343a40;
 $primary: #007bff;
 $secondary: #6c757d;
 $success: #28a745;
-$toolbar: rgba(24, 163, 163, 0.85);
+$toolbar: #ff9e0d;
 $info: #17a2b8;
 $warning: #ffc107;
 $danger: #dc3545;
@@ -41,5 +40,8 @@ $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
-$font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-$font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New", monospace;

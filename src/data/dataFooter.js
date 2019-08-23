@@ -1,18 +1,18 @@
 export const dataFooter = [
   {
     title: `Địa chỉ:`,
-    content:`xxxxxxxxxxx`,
+    content: `280 Lê Văn Thọ P11 Q.Gò Vấp `
   },
   {
     title: `Điện thoại:`,
-    content:`0917327317`,
+    content: `0917327317`
   },
   {
     title: `Email:`,
-    content:`xxxxxxxxxxx`,
+    content: `bogoviet.vn@gmail.com`
   },
   {
     title: `Facebook`,
-    content:``,
-  },
+    content: `https://www.facebook.com/101677661191439/`
+  }
 ]

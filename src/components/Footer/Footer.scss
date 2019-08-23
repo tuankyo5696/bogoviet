@@ -1,14 +1,13 @@
-@import '../../styles/styles.scss';
+@import "../../styles/styles.scss";
 
 #footer {
   position: relative;
-  background-color: #921936;
+  background-color: $toolbar;
   float: left;
   width: 100%;
   padding: 30px 0;
   overflow: hidden;
 }
-
 
 .heading {
   text-transform: uppercase;
@@ -20,9 +19,7 @@
   font-size: 18px;
   display: flex;
   align-items: center;
-
 }
-
 
 .box-footer .content {
   width: 100%;
@@ -32,7 +29,7 @@
   position: relative;
   a {
     display: inline-block;
-    color: #cbcbcb;
+    color: #fff;
     font-size: 18px;
   }
   span {

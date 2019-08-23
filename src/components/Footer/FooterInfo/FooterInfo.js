@@ -34,9 +34,14 @@ const FooterInfo = () => (
           </div>
           <div className="item">
             <img src={img4} alt="icon" className="iconFooter" />
-            <NavLink to="/" className="fb" target="_blank">
+            <a
+              href="https://www.facebook.com/101677661191439/"
+              className="fb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="lbl">{dataFooter[3].title}</span>
-            </NavLink>
+            </a>
           </div>
         </div>
       </div>

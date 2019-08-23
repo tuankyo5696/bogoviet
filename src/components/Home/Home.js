@@ -8,7 +8,6 @@ const Home = props => {
      <div className="container1">
         <div className="row no-gutters">
           <Carousel />
-        
         </div>
       </div>
     </div>

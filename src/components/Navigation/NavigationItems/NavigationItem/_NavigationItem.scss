@@ -18,12 +18,14 @@
     &:hover,
     &:active,
     &.active {
-      color: $red;
+      //color: $red;
+      border-bottom: 2px solid white;
       font-weight: 700;
       font-family: 'Open Sans', sans-serif;
     }
   }
 }
+
 
 @media(max-width: $breakpoint-lg) {
   .NavigationItem {

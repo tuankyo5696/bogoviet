@@ -13,25 +13,29 @@
       text-transform: uppercase;
       font-size: 15px;
       padding: 10px;
+      &:hover{
+        color:red;
+      }
     }
   }
+  h2.heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    background: #db0c0b url(../../../assets/images/product/icon-header-box-cate.png) no-repeat top 17px right 10px;
+    margin: 0;
+    margin-top: 0px;
+    position: relative;
+    padding: 13px 0 13px 10px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
 }
 
 #columns h2.heading,
 #footer h2.heading {
   margin-top: 0;
-}
-
-.box-category h2.heading {
-  font-size: 20px;
-  font-weight: 700;
-  //background: #db0c0b url(images/icon-header-box-cate.png) no-repeat top 15px right 10px;
-  margin: 0;
-  margin-top: 0px;
-  position: relative;
-  padding: 13px 0 13px 15px;
-  color: #fff;
-  text-transform: uppercase;
 }
 
 #accordion {
