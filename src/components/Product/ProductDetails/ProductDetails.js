@@ -3,14 +3,15 @@ import { NavLink } from "react-router-dom"
 import "./_ProductDetails.scss"
 import { dataProduct } from "../../../data/dataProduct"
 
-import VoBanh from "../../../assets/images/vobanh.jpg"
-import NhanBo from "../../../assets/images/nhanbo.png"
-import NhanGa from "../../../assets/images/nhanga.jpg"
-import NhanTom from "../../../assets/images/nhantom.jpg"
-import TuongCa from "./../../../assets/images/tuongca.jpg"
-import TuongOt from "./../../../assets/images/tuongot.png"
-import PhoMai from "./../../../assets/images/phomai.jpg"
-import Mayonnaise from "./../../../assets/images/mayonnaise.jpg"
+import VoBanh from "../../../assets/images/sanpham/vobanh.jpg"
+import NhanBo from "../../../assets/images/sanpham/nhanbo.png"
+import NhanGa from "../../../assets/images/sanpham/nhanga.jpg"
+import NhanTom from "../../../assets/images/sanpham/nhantom.jpg"
+import TuongCa from "./../../../assets/images/sanpham/tuongca.jpg"
+import TuongOt from "./../../../assets/images/sanpham/tuongot.png"
+import PhoMai from "./../../../assets/images/sanpham/phomai.jpg"
+import Mayonnaise from "./../../../assets/images/sanpham/mayonnaise.jpg"
+
 
 const A = [
   VoBanh,

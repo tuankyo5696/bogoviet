@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 import "./_VoBanhDetails.scss"
 import { dataVobanh } from "./../../../../data/dataVobanh"
 
-import VoBanh from "./../../../../assets/images/vobanh.jpg"
+import VoBanh from '../../../../assets/images/sanpham/vobanh.jpg'
 
 const A = [VoBanh]
 

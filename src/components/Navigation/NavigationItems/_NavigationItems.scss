@@ -9,15 +9,8 @@
 }
 
 
-
-// @media(min-width: 576px){
-//     .NavigationItems {
-//         flex-flow: row nowrap;
-//     }   
-// }
-
 @media (min-width: $breakpoint-lg){
     .NavigationItems {
         flex-flow: row nowrap;
-    }  
+    }
 }

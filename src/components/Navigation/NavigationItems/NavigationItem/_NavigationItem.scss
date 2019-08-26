@@ -1,7 +1,7 @@
 @import './../../../../styles/styles.scss';
 
 .NavigationItem {
-  padding: 15px 30px;
+  padding: 10px 10px;
   box-sizing: border-box;
   display: block;
   font-family: 'Open Sans', sans-serif;
@@ -18,7 +18,6 @@
     &:hover,
     &:active,
     &.active {
-      //color: $red;
       border-bottom: 2px solid white;
       font-weight: 700;
       font-family: 'Open Sans', sans-serif;

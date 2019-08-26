@@ -1,31 +1,49 @@
 @import "./../../styles/styles.scss";
 
+img.bogoTitle{
+  width: 0;
+}
+
+
 @media (max-width: $breakpoint-md - 0.02px) {
   .LogoImg {
     max-width: 50px;
-
+    
+    
     img {
       width: 100%;
     }
   }
 }
 
-@media (min-width: $breakpoint-md) and (min-width: $breakpoint-lg) {
-  .LogoImg {
-    max-width: 70px;
-  }
-}
 
 @media (min-width: $breakpoint-md) {
   .LogoImg {
-    max-width: 100px;
-
+    display: flex;
+    .bogoLogo{
+      width:100px;
+    }
+    .bogoTitle{
+      width: 200px;
+      left:20px;
+      top:10px;
+      height: 50px;
+    }
     img {
-      width: 150%;
       position: relative;
-      top: 31px;
-      left: -31px;
-      max-width: 150%;
+    }
+  }
+}
+
+
+@media (min-width: $breakpoint-lg) {
+  .LogoImg {
+    display: block;
+    img{
+      top:50px;
+    }
+    .bogoTitle{
+      top:50px;
     }
   }
 }

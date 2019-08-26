@@ -5,10 +5,10 @@ const navigationItems = props => {
   return (
     <ul className="NavigationItems">
       <NavigationItem link="/" exact>
-        Home
+        Trang chủ
       </NavigationItem>
       <NavigationItem link="/product">Sản phẩm</NavigationItem>
-      <NavigationItem link="/franchise">Nhượng Quyền</NavigationItem>
+      <NavigationItem link="/franchise">Hợp tác kinh doanh</NavigationItem>
       <NavigationItem link="/contact">Liên Hệ</NavigationItem>
     </ul>
   )
