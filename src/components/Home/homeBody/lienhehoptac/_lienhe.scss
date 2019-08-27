@@ -1,0 +1,35 @@
+.contact-index {
+  background: url("./../../../../assets/images/hoptac.png") center top no-repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding: 60px 0px;
+  line-height: 1.6em;
+  color: white;
+  .header-2 {
+    color: #ffcc29;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
+  .phone {
+    color: #ffcc29;
+    font-size: 55px;
+    border-radius: 50%;
+    border: 2px solid #ffcc29;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+  }
+  .headerPhone {
+    color: #ffcc29;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 2em;
+    text-transform: uppercase;
+  }
+}

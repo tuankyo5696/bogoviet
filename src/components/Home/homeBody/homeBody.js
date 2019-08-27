@@ -2,6 +2,7 @@ import React from "react"
 import Bogo from "./../../../assets/images/bogo.jpg"
 import "./_HomeBody.scss"
 import { NavLink } from "react-router-dom"
+import Lienhe from "./lienhehoptac/lienhe"
 const homeBody = () => {
   return (
     <div>
@@ -104,40 +105,11 @@ const homeBody = () => {
                   </NavLink>
                 </div>
               </div>
-              <div className="col-lg-6 col-12">
-                <div className="item2">
-                  <NavLink to="/">
-                    <div className="itemProduct">
-                      <div className="image">
-                        <img src={Bogo} alt="Bogo" />
-                      </div>
-                      <div className="NamePrice">
-                        <h5>Hamburger Trứng</h5>
-                        <p>15.000 đ</p>
-                      </div>
-                    </div>
-                  </NavLink>
-                </div>
-              </div>
-              <div className="col-lg-6 col-12">
-                <div className="item2">
-                  <NavLink to="/">
-                    <div className="itemProduct">
-                      <div className="image">
-                        <img src={Bogo} alt="Bogo" />
-                      </div>
-                      <div className="NamePrice">
-                        <h5>Hamburger Đặc biệt</h5>
-                        <p>38.000 đ</p>
-                      </div>
-                    </div>
-                  </NavLink>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
+      <Lienhe />
     </div>
   )
 }
