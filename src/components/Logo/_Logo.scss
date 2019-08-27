@@ -1,32 +1,29 @@
 @import "./../../styles/styles.scss";
 
-img.bogoTitle{
+img.bogoTitle {
   width: 0;
 }
-
 
 @media (max-width: $breakpoint-md - 0.02px) {
   .LogoImg {
     max-width: 50px;
-    
-    
+
     img {
       width: 100%;
     }
   }
 }
 
-
 @media (min-width: $breakpoint-md) {
   .LogoImg {
     display: flex;
-    .bogoLogo{
-      width:100px;
+    .bogoLogo {
+      width: 150px;
     }
-    .bogoTitle{
+    .bogoTitle {
       width: 200px;
-      left:20px;
-      top:10px;
+      left: 20px;
+      top: 10px;
       height: 50px;
     }
     img {
@@ -35,15 +32,14 @@ img.bogoTitle{
   }
 }
 
-
 @media (min-width: $breakpoint-lg) {
   .LogoImg {
     display: block;
-    img{
-      top:50px;
+    img {
+      top: 50px;
     }
-    .bogoTitle{
-      top:50px;
+    .bogoTitle {
+      top: 43px;
     }
   }
 }
