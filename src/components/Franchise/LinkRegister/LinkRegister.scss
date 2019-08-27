@@ -1,0 +1,11 @@
+.share-article.btn-group{
+    display: flex;
+    .item.itemLinkRe {
+        height: 40px;
+        width: 40px;
+        border: 1px solid #8080805e;
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+    }
+}
