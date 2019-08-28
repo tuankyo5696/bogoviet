@@ -4,12 +4,13 @@
   filter: brightness(1);
   fill: white;
   float: left;
+  -webkit-filter: brightness(1);
 }
-
 
 #columns h2.heading,
 #footer h2.heading {
   margin-top: 0;
+  text-align: center;
 }
 
 .box-footer h2.heading {
@@ -26,31 +27,26 @@
 
 .footer-address {
   .content {
-    float: left;
     width: 100%;
     font-size: 18px;
   }
 
   .item {
     margin: 0 0;
-    padding: 0 0 8px 0;
-    float: left;
+    padding: 0 0 8px 10rem;
+
     width: 100%;
 
     span.lbl {
-
       padding-left: 20px;
     }
 
     span.ctn {
-     
       padding-left: 10px;
       a {
-        float: none !important;
         display: inline-block;
       }
     }
-
   }
 }
 
@@ -65,11 +61,14 @@ a {
   text-decoration: none !important;
   display: block;
   position: relative;
-  transition: all .3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
 }
 
 .fb.active {
   font-weight: bold;
   color: white !important;
-
 }

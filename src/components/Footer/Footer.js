@@ -3,6 +3,7 @@ import "./Footer.scss"
 import FooterInfo from "./FooterInfo/FooterInfo"
 import FooterCat from "./FooterCategory/FooterCategory"
 import FooterCopy from "./FooterCopyright/FooterCopyright"
+import FooterFanPage from "./FooterFanPage/FooterFanPage"
 
 class Footer extends Component {
   render() {
@@ -12,8 +13,9 @@ class Footer extends Component {
           <div className="bg-footer">
             <div className="container">
               <div className="row">
-                <FooterInfo />
                 <FooterCat />
+                <FooterInfo />
+                <FooterFanPage />
               </div>
             </div>
           </div>

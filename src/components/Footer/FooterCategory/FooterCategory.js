@@ -1,9 +1,9 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import './FooterCategory.scss'
+import "./FooterCategory.scss"
 
 const FooterCat = () => (
-  <div className="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+  <div className="col-lg-3 col-md-3 col-xs-3 col-sm-3">
     <div className="box-footer">
       <h2 className="heading">Danh mục</h2>
       <div className="content">

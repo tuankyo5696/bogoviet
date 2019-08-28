@@ -8,7 +8,7 @@ import img3 from "../../../assets/images/footer/envelope-regular.svg"
 import img4 from "../../../assets/images/footer/facebook-f-brands.svg"
 
 const FooterInfo = () => (
-  <div className="col-lg-8 col-md-8 col-xs-12 col-sm-12 f-address">
+  <div className="col-lg-6 col-md-6 col-xs-6 col-sm-6 f-address">
     <div className="box-footer footer-address">
       <h2 className="heading">Thông tin liên hệ</h2>
       <div className="content">
