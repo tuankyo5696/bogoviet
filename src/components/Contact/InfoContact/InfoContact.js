@@ -1,6 +1,6 @@
 import React from "react"
 import "./InfoContact.scss"
-import { dataFooter } from "../../../data/dataFooter"
+import { dataContact } from "../../../data/dataContact"
 import { Formik, Form } from "formik"
 import * as Yup from "yup"
 const InfoContact = props => {
@@ -38,24 +38,31 @@ const InfoContact = props => {
                 <h2 className="heading">Thông tin liên hệ</h2>
                 <div className="contact-item">
                   <div className="box-companny">
-                    <h2 className="title">
-                      <span className="ctn">Bơ Gơ Viet</span>
-                    </h2>
                     <div className="content">
-                      <span className="label">
-                        <strong>{dataFooter[0].title}</strong>{" "}
-                        {dataFooter[0].content}
-                      </span>
-                      <span className="label">
-                        <strong>{dataFooter[1].title}</strong>{" "}
-                        <a href="tel:0907 251 087">{dataFooter[1].content}</a>{" "}
-                      </span>
-                      <span className="label">
-                        <strong>{dataFooter[2].title}</strong>{" "}
-                        <a href="mailto:bogoviet.vn@gmail.com">
-                          {dataFooter[2].content}
-                        </a>{" "}
-                      </span>
+                      <p className="label">
+                        <strong>{dataContact[0].title}</strong>{" "}
+                        {dataContact[0].content}
+                      </p>
+                      <p className="label">
+                        <strong>{dataContact[1].title}</strong>{" "}
+                        {dataContact[1].content}{" "}
+                      </p>
+                      <p className="label">
+                        <strong>{dataContact[2].title}</strong>{" "}
+                        {dataContact[2].content}
+                      </p>
+                      <p className="label">
+                        <strong>{dataContact[3].title}</strong>{" "}
+                        {dataContact[3].content}
+                      </p>
+                      <p className="label">
+                        <strong>{dataContact[4].title}</strong>{" "}
+                        {dataContact[4].content}
+                      </p>
+                      <p className="label">
+                        <strong>{dataContact[5].title}</strong>{" "}
+                        {dataContact[5].content}
+                      </p>
                     </div>
                   </div>
                   <div className="clearfix" />

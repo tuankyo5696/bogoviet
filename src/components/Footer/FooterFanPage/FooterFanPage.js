@@ -14,9 +14,9 @@ const FooterFanPage = () => {
               height="250"
               style={{ border: "none", overflow: "hidden" }}
               scrolling="no"
-              frameborder="0"
+              frameBorder="0"
               title="BoGoFanpage"
-              allowTransparency="true"
+              allowtransparency="true"
               allow="encrypted-media"
             ></iframe>
           </div>
