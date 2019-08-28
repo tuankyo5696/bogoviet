@@ -1,0 +1,27 @@
+.logoDiv {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+}
+
+.tableFranchise {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  .thTitleFranchise{
+    background:#dddddd;
+
+  }
+  tr.spaceFranchise {
+    height: 38px;
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  
+}

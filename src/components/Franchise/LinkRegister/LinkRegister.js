@@ -22,7 +22,7 @@ const LinkRegister = () => (
       </div>
       <div className="item itemLinkRe">
         <NavLink to="#" id="linkedin" title="Chía sẻ lên Linked In">
-          <i className="fab fa-linkedin" /> 
+          <i className="fab fa-linkedin" />
         </NavLink>
       </div>
     </div>

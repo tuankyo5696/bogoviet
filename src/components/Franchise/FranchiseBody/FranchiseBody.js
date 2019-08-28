@@ -4,6 +4,7 @@ import "./_FranchiseBody.scss"
 import LinkRegister from "../LinkRegister/LinkRegister"
 import NewsFranchise from "../News/NewsFranchise"
 import SloganFranchise from "../SloganFranchise/SloganFranchise";
+import TableFranchise from "../TableFranchise/TableFranchise";
 
 const FranchiseBody = () => {
   return (
@@ -12,6 +13,7 @@ const FranchiseBody = () => {
         <NavLink to="/">
           <h1 className="title-detail">HỢP TÁC KINH DOANH BƠ GƠ VIỆT</h1>
         </NavLink>
+        <TableFranchise/>
         <SloganFranchise/>
         <LinkRegister />
         <NewsFranchise />

@@ -5,6 +5,7 @@ import "./SloganFranchise.scss"
 const SloganFranchise = () => (
   <div className="description">
     <h2>KHÔNG MỚI ... NHƯNG RẤT MỚI ... </h2>
+    
     {/* <p style={{ textAlign: "center" }}>
       <img alt="" src="" />
     </p>
