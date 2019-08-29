@@ -3,20 +3,7 @@ import { NavLink } from "react-router-dom"
 import "./SloganFranchise.scss"
 
 const SloganFranchise = () => (
-  <div className="description">
-    <h2>KHÔNG MỚI ... NHƯNG RẤT MỚI ... </h2>
-    
-    {/* <p style={{ textAlign: "center" }}>
-      <img alt="" src="" />
-    </p>
-    <p style={{ textAlign: "center" }}>
-      <img alt="" src="" />
-    </p>
-
-    <p style={{ textAlign: "center" }}>
-      <img alt="" height="591" src="" width="1745" />
-    </p> */}
-
+  <div className="description" style={{paddingTop:'50px'}}>
     <p>
       <span style={{ fontSize: "28px" }}>
         <u>

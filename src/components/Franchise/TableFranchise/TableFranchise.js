@@ -9,60 +9,52 @@ const TableFranchise = () => {
       <div className="logoDiv">
         <img src={logo} alt="logo" />
       </div>
-      <div className="tableFranchise">
-        <table className="tableFranchise">
-          <tr>
-            <th className="thTitleFranchise">STT</th>
-            <th className="thTitleFranchise">HẠNG MỤC</th>
-            <th className="thTitleFranchise">ĐVT</th>
-            <th className="thTitleFranchise">SỐ LƯỢNG</th>
+      <table className="tableFranchise">
+        <tbody className="tableFranchise">
+          <tr className="trTitleFranchise">
+            <td className="thTitleFranchise" style={{width:'10%'}}>STT</td>
+            <td className="thTitleFranchise">HẠNG MỤC</td>
+            <td className="thTitleFranchise">ĐVT</td>
+            <td className="thTitleFranchise" >SỐ LƯỢNG</td>
           </tr>
           {dataTool.map((block, index) => (
-            <tr>
+            <tr key={index}>
               <td>{block.id}</td>
               <td>{block.content}</td>
               <td>{block.unit}</td>
               <td>{block.amount}</td>
             </tr>
           ))}
+        </tbody>
+        <tbody className="tableFranchise table2 ">
+          <tr>
+            <td colSpan="2">TỔNG CHI PHÍ CỐ ĐỊNH CĂN BẢN</td>
+            <td colSpan="2">18.000.000</td>
+          </tr>
+          <tr className="spaceFranchise">
+            <td colSpan="4"></td>
+           
+          </tr>
+          <tr>
+            <td colSpan="2">CHI PHÍ ĐẦU TƯ NHƯỢNG QUYỀN</td>
 
+            <td colSpan="2">18.000.000</td>
+          </tr>
           <tr>
-            <td>TỔNG CHI PHÍ CỐ ĐỊNH CĂN BẢN</td>
-           
-            <td>18.000.000</td>
+            <td colSpan="2">PHÍ NHƯỢNG QUYỀN (THU MỘT LẦN)</td>
+
+            <td colSpan="2">10.000.000</td>
           </tr>
           <tr className="spaceFranchise">
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>CHI PHÍ ĐẦU TƯ NHƯỢNG QUYỀN</td>
-            <td></td>
-            <td></td>
-            <td>18.000.000</td>
-          </tr>
-          <tr>
-            <td>PHÍ NHƯỢNG QUYỀN (THU MỘT LẦN)</td>
-            <td></td>
-            <td></td>
-            <td>10.000.000</td>
-          </tr>
-          <tr className="spaceFranchise">
-            <td> </td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>TỔNG PHÍ ĐẦU TƯ NHƯỢNG QUYỀN</td>
-           
+            <td colSpan="4"> </td>
             
-            <td>28.000.000</td>
           </tr>
-        </table>
-      </div>
+          <tr>
+            <td colSpan="2">TỔNG PHÍ ĐẦU TƯ NHƯỢNG QUYỀN</td>
+            <td colSpan="2">28.000.000</td>
+          </tr>
+        </tbody>
+      </table>
     </>
   )
 }

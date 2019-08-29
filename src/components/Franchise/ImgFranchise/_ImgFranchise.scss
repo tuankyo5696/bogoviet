@@ -1,0 +1,63 @@
+.coverImgFranchise {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 50px;
+  div p {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0 50px 0;
+  }
+
+  .divGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .div2Img {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .icon {
+        height: 150px; //150
+        width: 150px; //150
+        margin-bottom: 50px;
+        //opacity: 0;
+      }
+    }
+  }
+}
+
+@media (min-width:768px) {
+  .coverImgFranchise {
+    div p {
+      padding: 0 0 0 20px;
+    }
+
+    .divGroup {
+      padding-bottom: 50px;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+
+      img {
+        height: 200px;
+        width: 300px;
+      }
+    }
+
+    .divGroup:nth-child(even) {
+      flex-direction: row;
+    }
+  }
+}
+
+@media (min-width:1024px) {
+  .coverImgFranchise .divGroup {
+    justify-content: space-around;
+
+    img {
+      height: 300px;
+      width: 400px;
+    }
+  }
+}
