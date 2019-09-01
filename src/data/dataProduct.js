@@ -71,3 +71,44 @@ export const dataProductNav = [
     title: `Món ăn kèm`
   }
 ]
+
+export const dataProductForSale = [
+  {
+    title: `Hamburger Bò Phomai`,
+    price: `23.000 đ`
+  },
+  {
+    title: `Hamburger Bò Trứng Phomai`,
+    price: `28.000 đ`
+  },
+  {
+    title: `Hamburger Gà`,
+    price: `18.000 đ`
+  },
+  {
+    title: `Hamburger Tôm`,
+    price: `28.000 đ`
+  }
+]
+
+export const dataProductServices = {
+  title: `ĐẶT HÀNG SỐ LƯỢNG LỚN CHO CÔNG TY, SỰ KIỆN`,
+  subtitle: [
+    `Quý khách hàng có nhu cầu tổ chức picnic,
+      dã ngoại, hội trại, hội thảo, tổ chức tập huấn,
+      team building… với số lượng thành viên lớn.`,
+    ` Để đảm bảo bữa ăn phụ chất lượng, nhanh, tiện lợi, an toàn.
+      Hãy liên hệ với Bơ Gơ Viet để được tư vấn, đặt hàng và giao hàng với số lượng lớn.`,
+    ` Đảm bảo:`
+  ],
+  content: [
+    `Giao hàng đúng số lượng`,
+    `Giao hàng đúng thời gian`,
+    `Giao hàng đúng chất lượng`,
+    `Giao hàng đúng địa điểm`
+  ],
+  tel: [
+    `Gọi ngay: 0917 327 317 để đặt hàng`,
+    `Rất hân hạnh phục vụ quý khách!`
+  ]
+}

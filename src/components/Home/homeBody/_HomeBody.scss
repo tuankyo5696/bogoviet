@@ -1,81 +1,16 @@
+@import '../../../styles/styles.scss';
 .contentHome {
   h1 {
     padding-top: 4rem;
     text-align: center;
     text-transform: capitalize;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 32px;
     line-height: 2em;
+    font-family: 'Muli', sans-serif;
   }
-}
-.contentProduct {
-  background-color: #393535;
-
-  .productHome {
-    text-align: center;
-    font-size: 32px;
-    line-height: 2;
-    color: #fab414;
-  }
-  h4 {
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.7;
-    color: #fff;
-  }
-}
-.menu .row .itemProduct {
-  display: flex;
-  flex-flow: column;
-
-  .image {
-    width: 100%;
-    align-items: center;
-
-    img {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      transition: 0.3s;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      -o-border-radius: 50%;
-      -webkit-transition: 0.3s;
-      -moz-transition: 0.3s;
-      -ms-transition: 0.3s;
-      -o-transition: 0.3s;
-    }
-  }
-  .NamePrice {
-    h5 {
-      color: #fff;
-      transition: 0.3s;
-      font-size: 20px;
-      font-weight: normal;
-      padding-top: 40px;
-      line-height: 1.5;
-      padding-right: 15px;
-      -webkit-transition: 0.3s;
-      -moz-transition: 0.3s;
-      -ms-transition: 0.3s;
-      -o-transition: 0.3s;
-    }
-    p {
-      font-size: 21px;
-      color: #fab414;
-
-      padding-top: 10px;
-      padding-right: 15px;
-    }
+  .row{
+    padding-bottom: 50px;
   }
 }
 
-@media (min-width: 576px) {
-  .menu .row .itemProduct {
-    flex-direction: row;
-    .image {
-      width: 50%;
-    }
-  }
-}

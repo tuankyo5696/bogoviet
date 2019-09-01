@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Slide1 from "./../../../assets/images/bg-home1.jpg";
+import Slide1 from "./../../../assets/images/home/slider/slide1.jpg";
 import Slide2 from "./../../../assets/images/bg-home2.jpg";
 import Slide3 from "./../../../assets/images/bg-home3.png";
 
