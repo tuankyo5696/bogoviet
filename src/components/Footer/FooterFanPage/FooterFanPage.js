@@ -2,9 +2,9 @@ import React from "react"
 import "./_FooterFanPage.scss"
 const FooterFanPage = () => {
   return (
-    <div className="col-lg-3 col-md-3 col-xs-3 col-sm-3">
+    <div className="col-xl-4 col-lg-6 ">
       <div className="box-footer footer-address">
-        <h2 className="heading">FanPage Facebook</h2>
+        <h2 className="heading heading2">FanPage Facebook</h2>
         <div className="content">
           <div className="box-content">
             <div id="fb-root"></div>

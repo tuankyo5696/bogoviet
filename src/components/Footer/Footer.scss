@@ -5,8 +5,11 @@
   background-color: $toolbar;
   float: left;
   width: 100%;
-  padding: 30px 0;
+  padding: 40px 0;
   overflow: hidden;
+  .row{
+    flex-direction: column;
+  }
 }
 
 .heading {
@@ -35,4 +38,10 @@
   span {
     color: #fff;
   }
+}
+@media (min-width:1200px){
+#footer .row{
+    flex-direction: row;
+}
+
 }
