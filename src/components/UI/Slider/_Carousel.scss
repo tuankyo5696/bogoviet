@@ -1,23 +1,137 @@
-.carouselRespon{
-    margin-top: 84px;
+.carouselRespon {
+  margin-top: 24px;
+  position: relative;
+  img {
+    height: 200px;
+    width: 100%;
+  }
+
+  .react-slideshow-container .nav {
+    display: none;
+  }
+
+  //RIGHT
+  .react-slideshow-container .nav:last-of-type {
+    right: 21px;
+
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .react-slideshow-container .nav:last-of-type:hover {
+    background: hsla(0, 0%, 100%, .06) url(../../../assets/images/home/slider/arrow-right-light.svg) no-repeat 50%;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /////
+  .react-slideshow-container+div.indicators>div {
+    width: 8px;
+    height: 8px;
+    margin-right: 25px;
+    border-radius: 0%;
+    background: white;
+    border: 1px solid #0000001f;
+    cursor: pointer;
+  }
+
+  .react-slideshow-container+div.indicators {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* top: 80rem; */
+    z-index: 1000;
+    float: left;
+    position: absolute;
+    left: 30%;
+    top: 80%;
+  }
+
+  .react-slideshow-container+div.indicators>div.active {
+    background: rgb(77, 76, 76);
+    width: 10px;
+    height: 10px;
+    margin-top: -1px;
+  }
+
+  .react-slideshow-container .nav:hover {
+    color: #666;
+  }
+
+
+  .react-slideshow-container .nav span {
+    display: none;
+  }
+
+  //LEFT
+  .react-slideshow-container .nav:first-of-type {
+    margin-left: 20px;
+    border-radius: 0;
+    font-size: 0;
+    position: absolute;
+    background: hsla(0, 0%, 100%, 0) url(../../../assets/images/home/slider/arrow-left-dark.svg) no-repeat 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 80px;
+    width: 40px;
+  }
+
+  .react-slideshow-container .nav:first-of-type:hover {
+    background: hsla(0, 0%, 100%, .06) url(../../../assets/images/home/slider/arrow-right-light.svg) no-repeat 50%;
+    -webkit-transform: translateY(-50%) rotate(180deg);
+    -ms-transform: translateY(-50%) rotate(180deg);
+    transform: translateY(-50%) rotate(180deg);
+  }
+
 }
 
-@media(min-width:768px){
-    .carouselRespon{
-        margin-top: 140px;
+@media(min-width:768px) {
+  .carouselRespon {
+    margin-top: 140px;
+
+    img {
+      height: 500px;
+      width: 100%;
     }
-}
 
-
-@media(min-width:1024px){
-    .carouselRespon{
-        margin-top: 193px;
+    .react-slideshow-container .nav {
+      display: flex;
+      margin-left: 20px;
+      border-radius: 0;
+      font-size: 0;
+      position: absolute;
+      background: hsla(0, 0%, 100%, 0) url(../../../assets/images/home/slider/arrow-left-dark.svg) no-repeat 50%;
+      height: 80px;
+      width: 40px;
     }
+  }
+
+  .carouselRespon .react-slideshow-container+div.indicators {
+    top:85%;
+  }
 }
 
-@media(min-width:1200px){
-    .carouselRespon{
-        margin-top: 139px;
+
+@media(min-width:1024px) {
+  .carouselRespon {
+    margin-top: 193px;
+
+    .react-slideshow-container+div.indicators {
+      left: 45%;
     }
+
+  }
+  .carouselRespon .react-slideshow-container+div.indicators {
+    top:90%;
+  }
 }
 
+@media(min-width:1200px) {
+  .carouselRespon {
+    margin-top: 139px;
+  }
+}

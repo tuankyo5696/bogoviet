@@ -1,24 +1,33 @@
 import React from "react"
-import { Carousel } from "react-responsive-carousel"
+import { Slide } from "react-slideshow-image"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import Slide1 from "./../../../assets/images/home/slider/1.jpg"
-import Slide2 from "./../../../assets/images/home/slider/slide3.jpg"
-import Slide3 from "./../../../assets/images/bg-home3.png"
+import Slide1 from "./../../../assets/images/home/slider/long.jpg"
+import Slide2 from "./../../../assets/images/home/slider/slide2.jpg"
+import Slide3 from "./../../../assets/images/home/slider/slide3.jpg"
+import Slide4 from '../../../assets/images/home/slider/slide4.jpg'
 import "./_Carousel.scss"
 
-const carousel = props => (
-  <div className="carouselRespon">
-    <Carousel autoPlay showThumbs={false} infiniteLoop={true} showStatus={false}>
-      <div>
-        <img src={Slide1} alt="" />
+class carousel extends React.Component {
+  render() {
+    const opptions = {
+      duration: 10000,
+      transitionDuration: 300,
+      infinite: true,
+      indicators: true,
+      arrows: true
+  
+    }
+
+    return (
+      <div className="carouselRespon">
+        <Slide {...opptions}>
+          <img src={Slide1} alt="" />
+          <img src={Slide2} alt="" />
+          <img src={Slide3} alt="" />
+          <img src={Slide4} alt="" />
+        </Slide>
       </div>
-      {/* <div>
-        <img src={Slide2} alt="" />
-      </div> */}
-      {/* <div>
-        <img src={Slide3} alt="" />
-      </div> */}
-    </Carousel>
-  </div>
-)
+    )
+  }
+}
 export default carousel

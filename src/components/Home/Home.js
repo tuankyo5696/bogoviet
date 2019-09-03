@@ -5,11 +5,7 @@ import HomeBody from "./homeBody/homeBody"
 const Home = props => {
   return (
     <div className="menu">
-      <div className="container1">
-        <div className="row no-gutters carouselHome">
-          <Carousel />
-        </div>
-      </div>
+      <Carousel />
       <HomeBody />
     </div>
   )
