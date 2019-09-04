@@ -1,0 +1,47 @@
+.coverProductMenu {
+	padding-top: 50px;
+	background-color: #666666;
+}
+
+.coverProductMenu1 {
+
+	height: 500px;
+	width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../../../assets/images/product/menu.jpg);
+	display: none;
+}
+
+.coverProductMenu2 {
+	.item {
+
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.item1 {
+		height: 200px;
+		background-image: url(../../../assets/images/product/menutron.png);
+		background-position: center;
+	}
+
+	.item2 {
+		margin-top: 50px;
+		height: 500px;
+		background-image: url(../../../assets/images/product/item2.jpg);
+	}
+}
+
+@media(min-width:768px) {
+	.coverProductMenu {
+		padding-top: 0px;
+	}
+	.coverProductMenu1 {
+		display:block;
+	}
+	.coverProductMenu2 {
+		display:none;
+	}
+}

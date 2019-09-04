@@ -1,0 +1,29 @@
+.contentHome {
+  .row {
+    // display: flex;
+    // flex-direction: column;
+
+    .coverItem {
+      padding-bottom: 50px;
+    }
+
+    .imgFranchise {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+@media (min-width:768px) {
+  .contentHome .row .imgFranchise {
+
+    height: 400px;
+  }
+}
+
+@media (min-width:1024px) {
+  .contentHome .row .imgFranchise {
+
+    height: 450px;
+  }
+}
