@@ -5,7 +5,7 @@
   width: 100%;
 
   .divGroup {
-    background-size: cover;
+   
     background-repeat: no-repeat;
     background-position: center;  
   }
@@ -19,8 +19,18 @@
   }
   .div2{
     background-image: url(../../../assets/images/franchise/franchise2.jpg);
-    height: 500px;
+    height: 700px;
     width: 100%;
+    background-size: contain;
+  }
+}
+@media (min-width:400px){
+  .coverImgFranchise .div1{
+    background-size: contain;
+    height: 500px;
+  }
+  .div2{
+   
   }
 }
 

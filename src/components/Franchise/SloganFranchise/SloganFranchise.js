@@ -1,5 +1,4 @@
 import React from "react"
-import { NavLink } from "react-router-dom"
 import "./SloganFranchise.scss"
 
 const SloganFranchise = () => (
@@ -16,12 +15,12 @@ const SloganFranchise = () => (
 
     <p>
       <span style={{ fontSize: "15px" }}>
-        <em>
-          <NavLink to="https://forms.gle/d355qVRYykco9Jn66">
+        <em> 
+          <a href="https://forms.gle/SMvsrvnzBUVvrJBn7" rel="noopener noreferrer" target="_blank">
             <span style={{ color: "#0000FF" }}>
-              https://forms.gle/d355qVRYykco9Jn66
+              https://forms.gle/SMvsrvnzBUVvrJBn7
             </span>
-          </NavLink>
+          </a>
         </em>
       </span>
     </p>
