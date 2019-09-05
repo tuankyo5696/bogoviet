@@ -14,7 +14,6 @@ class carousel extends React.Component {
       transitionDuration: 300,
       infinite: true,
       arrows: true
-  
     }
 
     return (
