@@ -1,8 +1,10 @@
-import React from "react"
+import React from 'react'
 import "./_lienhe.scss"
+import BtnLienHe from './btnLienHe/btnLienHe'
 const lienhe = props => {
+  
   return (
-    <div>
+    <>
       <div className="contact-index">
         <div className="container">
           <h2 className="header-2">
@@ -15,11 +17,9 @@ const lienhe = props => {
           <i className="fa fa-phone phone" aria-hidden="true"></i>
           <p className="headerPhone">Gọi 0917327317</p>
         </a>
-        <a href="/">
-          <p className="button">Liên hệ hợp tác ngay</p>
-        </a>
+        <div><BtnLienHe/></div>
       </div>
-    </div>
+    </>
   )
 }
 

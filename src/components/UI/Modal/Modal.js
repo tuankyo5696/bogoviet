@@ -20,7 +20,7 @@ class Modal extends Component {
             opacity: this.props.show ? "1" : "0"
           }}
         >
-          <div className="Modal">{this.props.children}</div>
+          <div className="Modal" style={{backgroundColor:'white'}}>{this.props.children}</div>
         </div>
       </>
     );
