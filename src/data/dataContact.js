@@ -17,7 +17,7 @@ export const dataContact = [
   },
   {
     title: `Hotline :`,
-    content: `0917327317`
+    content: `0386868381`
   },
   {
     title: `Email :`,

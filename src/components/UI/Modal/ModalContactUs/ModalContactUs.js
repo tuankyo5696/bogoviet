@@ -13,7 +13,7 @@ const ModalContactUs = (props) => {
 
         <p>
           Bơ Gơ Việt sẵn sàng tư vấn hoặc báo giá miễn phí, vui lòng gọi:
-          <a href="tel:0917327317" className="tel">0917.327.317</a>
+          <a href="tel:0386868381" className="tel">0386.868.381</a>
         </p>
         <p>
           Hoặc điền vào form nhỏ bên dưới để gởi yêu cầu cho chúng tôi. Cảm ơn!

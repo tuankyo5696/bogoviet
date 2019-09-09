@@ -108,7 +108,7 @@ export const dataProductServices = {
     `Giao hàng đúng địa điểm`
   ],
   tel: [
-    `Gọi ngay: 0917 327 317 để đặt hàng`,
+    `Gọi ngay: 0386 868 381 để đặt hàng`,
     `Rất hân hạnh phục vụ quý khách!`
   ]
 }

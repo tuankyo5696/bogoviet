@@ -9,7 +9,7 @@ export const dataFooter = [
   },
   {
     title: `Hotline :`,
-    content: `0917327317`
+    content: `0386868381`
   },
   {
     title: `Email :`,

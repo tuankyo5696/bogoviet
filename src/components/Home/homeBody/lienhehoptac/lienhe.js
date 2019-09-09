@@ -13,9 +13,9 @@ const lienhe = props => {
             Bơ Gơ Việt
           </h2>
         </div>
-        <a href="tel:0917327317">
+        <a href="tel:0386868381">
           <i className="fa fa-phone phone" aria-hidden="true"></i>
-          <p className="headerPhone">Gọi 0917327317</p>
+          <p className="headerPhone">Gọi 0386868381</p>
         </a>
         <div><BtnLienHe/></div>
       </div>
