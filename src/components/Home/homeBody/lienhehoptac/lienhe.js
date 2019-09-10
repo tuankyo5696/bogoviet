@@ -15,7 +15,7 @@ const lienhe = props => {
         </div>
         <a href="tel:0386868381">
           <i className="fa fa-phone phone" aria-hidden="true"></i>
-          <p className="headerPhone">Gọi 0386868381</p>
+          <p className="headerPhone">Gọi 038 68 68 381</p>
         </a>
         <div><BtnLienHe/></div>
       </div>
