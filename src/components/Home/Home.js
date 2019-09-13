@@ -1,11 +1,12 @@
 import React from "react"
 import "./_Home.scss"
-import Carousel from "./../../components/UI/Slider/Carousel"
 import HomeBody from "./homeBody/homeBody"
+import VideoBackground from '../../components/UI/VideoBackground/VideoBackground'
+
 const Home = props => {
   return (
     <div className="menu">
-      <Carousel />
+      <VideoBackground />
       <HomeBody />
     </div>
   )

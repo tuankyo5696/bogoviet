@@ -1,0 +1,24 @@
+#myVideo {
+  margin-top: 84px;
+  height: 200px;
+  width: 100%;
+  background-color: gray;
+}
+@media(min-width:768px) {
+  #myVideo {
+    margin-top: 140px;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media(min-width:1024px) {
+  #myVideo {
+    margin-top: 191px;
+  }
+}
+
+@media(min-width:1200px) {
+  #myVideo {
+    margin-top: 139px;
+  }
+}
