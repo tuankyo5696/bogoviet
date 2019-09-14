@@ -19,13 +19,13 @@ class VideoBackground extends React.Component {
     })
   }
 
-  onPlayVideo = () => {
-    this.state.player.playVideo()
-  }
+  // onPlayVideo = () => {
+  //   this.state.player.playVideo()
+  // }
 
-  onPauseVideo = () => {
-    this.state.player.pauseVideo()
-  }
+  // onPauseVideo = () => {
+  //   this.state.player.pauseVideo()
+  // }
 
   render() {
     const opts = {
@@ -40,14 +40,6 @@ class VideoBackground extends React.Component {
           videoId={this.state.videoId}
           onReady={this.onReady}
         />
-        <div className="grBtn">
-          <button className="blue" onClick={this.onPlayVideo}>
-            Play
-          </button>
-          <button className="orange" onClick={this.onPauseVideo}>
-            Pause
-          </button>
-        </div>
       </div>
     )
   }
