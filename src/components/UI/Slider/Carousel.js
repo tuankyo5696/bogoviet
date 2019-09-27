@@ -1,10 +1,6 @@
 import React from "react"
 import { Slide } from "react-slideshow-image"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import Slide1 from "./../../../assets/images/home/slider/long.jpg"
-import Slide2 from "./../../../assets/images/home/slider/slide2.jpg"
-import Slide3 from "./../../../assets/images/home/slider/slide3.jpg"
-import Slide4 from '../../../assets/images/home/slider/slide4.jpg'
 import "./_Carousel.scss"
 
 class carousel extends React.Component {
@@ -19,10 +15,10 @@ class carousel extends React.Component {
     return (
       <div className="carouselRespon">
         <Slide {...opptions}>
-          <img src={Slide1} alt="" />
-          <img src={Slide2} alt="" />
-          <img src={Slide3} alt="" />
-          <img src={Slide4} alt="" />
+          <img src="https://i.ibb.co/jTjNJ5w/long.jpg" alt="" />
+          <img src="https://i.ibb.co/z5np4TZ/slide2.jpg" alt="" />
+          <img src="https://i.ibb.co/kX4yY4n/slide3.jpg" alt="" />
+          <img src="https://i.ibb.co/Fwp5gF8/slide4.jpg" alt="" />
         </Slide>
       </div>
     )
