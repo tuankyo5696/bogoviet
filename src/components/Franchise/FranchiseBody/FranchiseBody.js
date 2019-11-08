@@ -3,12 +3,14 @@ import "./_FranchiseBody.scss"
 import LinkRegister from "../LinkRegister/LinkRegister"
 import NewsFranchise from "../News/NewsFranchise"
 import SloganFranchise from "../SloganFranchise/SloganFranchise"
-import ImgFranchise from "../ImgFranchise/ImgFranchise"
+// import ImgFranchise from "../ImgFranchise/ImgFranchise"
+import VideoBackground from "../../UI/VideoBackground/VideoBackground"
 
 const FranchiseBody = () => {
   return (
     <>
-      <ImgFranchise />
+      {/* <ImgFranchise /> */}
+      <VideoBackground/>
       <div className="container">
         <article className="article">
           <SloganFranchise />
